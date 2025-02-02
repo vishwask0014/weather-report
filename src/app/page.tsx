@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className="mt-6 w-80 bg-white p-4 rounded-xl shadow-lg">
           <div className="flex flex-col items-center text-gray-700">
-            <h2 className="text-2xl font-semibold">{apiOutput?.name}, {apiOutput?.sys?.country}</h2>
+            <h2 className="text-2xl font-semibold h-[40px]">{apiOutput?.name} {apiOutput?.sys?.country}</h2>
             <p className="text-xl font-bold">Temperature {apiOutput?.main?.temp} °C </p>
             <p className="capitalize">Weather Description : </p>
             <svg className="w-8 h-8">
